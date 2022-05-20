@@ -6,11 +6,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './component/Login';
 import Register from './component/Register';
 import Addbook from './component/Addbook';
+import ViewBook from './component/ViewBook';
 
 function App() {
   return (
     <>
     <Addbook/>
+    <ViewBook/>
 
     <BrowserRouter>
     <Routes>
